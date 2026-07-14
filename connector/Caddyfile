@@ -1,0 +1,5 @@
+# Replace with your own domain (DNS A record must point at the VPS IP).
+# Caddy automatically obtains and renews the Let's Encrypt certificate.
+connector.yourdomain.com {
+	reverse_proxy connector:3000
+}

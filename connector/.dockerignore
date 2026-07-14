@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+.git
+.vscode
+jest-report
+.env
+uploads
+*.log

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Shell of the External Client App. The OAuth settings (scopes, digital
+     signature cert, pre-authorization) are NOT deployable — configure them in
+     Setup UI per README section 4.2. orgScopedExternalApp is org-specific:
+     replace YOUR_15_CHAR_ORG_ID or simply create the ECA fresh in your org. -->
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>admin@yourcompany.com</contactEmail>
+    <distributionState>Local</distributionState>
+    <isProtected>false</isProtected>
+    <label>BYOC</label>
+    <orgScopedExternalApp>YOUR_15_CHAR_ORG_ID:BYOC</orgScopedExternalApp>
+</ExternalClientApplication>

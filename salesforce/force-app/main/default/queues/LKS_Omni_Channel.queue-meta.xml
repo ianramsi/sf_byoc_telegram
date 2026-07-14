@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>LKS Omni-Channel</name>
+    <queueMembers>
+        <users>
+            <user>operation.lks@force.com.devlks</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Roating_WA</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingEndUser</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

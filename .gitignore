@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.key
+*.crt
+*.pem
+sig.bin
+config.env*
+
+# Node
+node_modules/
+dist/
+coverage/
+uploads/
+
+# Salesforce DX local state
+.sf/
+.sfdx/
+.localdevserver/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Exclude all markdown docs except README.md (this is the single source of truth)
+*.md
+!README.md

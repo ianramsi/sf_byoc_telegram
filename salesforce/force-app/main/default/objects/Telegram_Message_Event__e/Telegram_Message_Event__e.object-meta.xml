@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Telegram for BYOC Channel</description>
+    <eventType>HighVolume</eventType>
+    <label>Telegram Message Event</label>
+    <pluralLabel>Telegram Message Events</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>

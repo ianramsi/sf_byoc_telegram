@@ -1,0 +1,17 @@
+dist
+coverage
+node_modules
+npm-debug.log
+.DS_Store
+src/.DS_Store
+.vscode
+jest-report/
+uploads/
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt

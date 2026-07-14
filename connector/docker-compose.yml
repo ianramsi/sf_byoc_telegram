@@ -1,0 +1,30 @@
+services:
+  connector:
+    build: .
+    container_name: telegram-byoc-connector
+    restart: unless-stopped
+    env_file:
+      - .env
+    expose:
+      - "3000"
+    volumes:
+      - uploads:/app/uploads
+
+  caddy:
+    image: caddy:2-alpine
+    container_name: telegram-byoc-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - connector
+
+volumes:
+  uploads:
+  caddy_data:
+  caddy_config:

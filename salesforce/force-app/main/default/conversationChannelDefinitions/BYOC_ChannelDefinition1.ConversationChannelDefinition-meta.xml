@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConversationChannelDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectedAppType>Customer</connectedAppType>
+    <consentOwner>Salesforce</consentOwner>
+    <customEventPayloadField>Telegram_Message_Event__e.Payload__c</customEventPayloadField>
+    <customEventTypeField>Telegram_Message_Event__e.EventType__c</customEventTypeField>
+    <customPlatformEvent>Telegram_Message_Event__e</customPlatformEvent>
+    <developerName>BYOC_ChannelDefinition1</developerName>
+    <isConferenceSupported>false</isConferenceSupported>
+    <isInboundAcknwOptionExposed>true</isInboundAcknwOptionExposed>
+    <isProgressIndicatorOptExposed>false</isProgressIndicatorOptExposed>
+    <isRoutingWorkResultSupported>false</isRoutingWorkResultSupported>
+    <isTypingIndicatorOptionHidden>false</isTypingIndicatorOptionHidden>
+    <masterLabel>Telegram BYOC Channel Definition</masterLabel>
+    <routingOwner>Salesforce</routingOwner>
+    <supportsCustomChannelParameters>true</supportsCustomChannelParameters>
+    <supportsDoubleOptInConsent>false</supportsDoubleOptInConsent>
+    <supportsExplicitConsent>false</supportsExplicitConsent>
+    <supportsImplicitConsent>true</supportsImplicitConsent>
+    <supportsIsoCountryCode>false</supportsIsoCountryCode>
+    <supportsKeywords>true</supportsKeywords>
+</ConversationChannelDefinition>
